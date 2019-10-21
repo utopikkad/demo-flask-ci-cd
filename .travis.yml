@@ -6,8 +6,8 @@ python:
   - "3.8"
 # command to install dependencies
 install:
-  - pip install 
+  - make prepare 
 # command to run tests
 script:
-  - pipenv run pylint main.py
+  - make test
 

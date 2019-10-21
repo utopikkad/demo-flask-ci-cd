@@ -1,4 +1,4 @@
-build :
+prepare :
 	pipenv install
 
 test :
